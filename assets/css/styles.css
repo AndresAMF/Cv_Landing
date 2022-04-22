@@ -1,0 +1,201 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.home{
+  height: 45rem;
+  width: 100%;
+  background: url("../imgs/Fondo.jpg") top center;
+  background-size: cover;
+}
+
+.home img{
+  width: 100%;
+  height: 20%;
+}
+.home .homeContainer i{
+  color: white;
+  font-size: 2em;
+}
+.about{
+  height: auto;
+  width: 100%;
+  padding: 75px 100px 0px 100px;
+  margin-bottom: 50px;
+}
+.about .aboutTitle .aboutContent{
+  margin: 0px 50px;
+}
+.about .aboutTitle h2{
+  text-decoration: underline #149DDD;
+  padding-bottom: 10px;
+}
+.about .aboutContent ul{
+  list-style: none;
+}
+.curriculum{
+  height: auto;
+  width: 100%;
+  padding: 75px 100px 50px 100px;
+  background-color: #f5f8fd;
+}
+.curriculum .curriculumTitle{
+  margin: 0px 100px;
+}
+.curriculum .curriculumTitle h2{
+  text-decoration: underline #149DDD;
+  padding-bottom: 10px;
+}
+.curriculum .curriculumContent{
+  margin: 0px 100px;
+}
+.curriculum .curriculumContent h3{
+  padding: 20px 100px 20px 100px;
+}
+.curriculum .curriculumContent .itemcv h5{
+  background-color: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+}
+#curriculum .curriculumContent .itemcv {
+  padding: 0px 20px 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #222032;
+  position: relative;
+}
+#curriculum .curriculumContent .itemcv::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #2d246d;
+}
+#curriculum .curriculumContent .itemcv:last-child {
+  padding-bottom: 0;
+}
+.skills{
+  height: auto;
+  width: auto;
+  padding: 75px 0px;
+}
+.skills .row{
+  padding: 0px 100px;
+}
+.skills .skillsTitle{
+  padding: 0px 100px;
+}
+.skillsTitle h2{
+  text-decoration: underline #149DDD;
+  padding-bottom: 10px;
+  
+}
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #2c4964;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #e8e7ed;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149DDD;
+}
+.portafolio{
+  height: auto;
+  width: 100%;
+  padding: 75px 100px 50px 100px;
+  background-color: #f5f8fd;
+}
+.portafolio .portafolioTitle{
+  margin: 0px 100px;
+}
+.portafolioContent{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.portafolio .portafolioTitle h2{
+  text-decoration: underline #149DDD;
+  padding-bottom: 10px;
+}
+.carousel .carousel-item {
+  height: 550px;
+  
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 550px;
+}
+.contact{
+  height: auto;
+  width: 100%;
+  padding: 75px 100px 50px 100px;
+}
+.contact .container{
+  margin: 0px;
+  padding: 0px;
+}
+.contactTitle{
+  text-decoration: underline #149DDD;
+  padding-bottom: 10px;
+}
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c6387;
+}
+.contact .info {
+  color: #343535;
+}
+.form-group {
+  text-align: left;
+}
+.contact button[type=submit] {
+  background: #081b5b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+    
+}
+.contact button[type=submit]:hover {
+  background: #a45add;
+}
+footer{
+  background-color: #f5f8fd;
+}
+footer .container {
+  
+  font-size: 14px;
+  box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.12);
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #f5f8fd;
+}
